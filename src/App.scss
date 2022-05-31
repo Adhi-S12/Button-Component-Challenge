@@ -1,0 +1,18 @@
+.wrapper {
+  max-width: 800px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(1, 4fr);
+}
+
+.row {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  border-bottom: 1px solid rgba(204, 204, 204, 0.322);
+  border-left: 1px solid rgba(204, 204, 204, .322);
+  padding: 20px;
+}
+
+.title{
+  margin:  50px 0px 20px 50px;
+}
