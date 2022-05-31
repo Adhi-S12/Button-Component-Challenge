@@ -8,8 +8,7 @@
 .row {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  border-bottom: 1px solid rgba(204, 204, 204, 0.322);
-  border-left: 1px solid rgba(204, 204, 204, .322);
+  border: 1px solid rgba(204, 204, 204, 0.322);
   padding: 20px;
 }
 
